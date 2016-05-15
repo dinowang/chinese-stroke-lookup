@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unihan", "Unihan\Unihan.csproj", "{B03B163D-B9F5-4893-BE26-4D9F60D3890B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unihan.Test", "Unihan.Test\Unihan.Test.csproj", "{86B4419F-4F6F-42F1-8A15-A19CEA71F9B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE20C9D7-170D-41A3-AF9A-825F2622AF37}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Unihan.vsmdi = Unihan.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Unihan.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03B163D-B9F5-4893-BE26-4D9F60D3890B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03B163D-B9F5-4893-BE26-4D9F60D3890B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03B163D-B9F5-4893-BE26-4D9F60D3890B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03B163D-B9F5-4893-BE26-4D9F60D3890B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B4419F-4F6F-42F1-8A15-A19CEA71F9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B4419F-4F6F-42F1-8A15-A19CEA71F9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B4419F-4F6F-42F1-8A15-A19CEA71F9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B4419F-4F6F-42F1-8A15-A19CEA71F9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
